@@ -1,6 +1,10 @@
 .logo {
     max-width: 129px;
     max-height: 60px;
+    border: 1px solid black;
+    margin-top:-2%;
+    background-color:#000;
+    color: #000;
 }
 .nav input {
     display: inline-block;
@@ -11,7 +15,7 @@ ul.toggle-button {
 ul.subs {
     display: inline-block;
     padding: 15px;
-    float: right;
+    float:right;
 }
 ul.subs li {
     display: inline-block;

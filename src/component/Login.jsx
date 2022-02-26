@@ -52,8 +52,10 @@ const navigation=useNavigate();
         <div className="icon">
           <i class="uil uil-times" onClick={cross}></i>
         </div>
-
+           <div className="H1">
         <h1>Sign In</h1>
+
+           </div>
 
         <div className="account">
           <h5>you have an HBO Max account?</h5>

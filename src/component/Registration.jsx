@@ -1,6 +1,7 @@
 import React from 'react';
 // import { useHistory } from "react-router-dom";
 import { useNavigate } from 'react-router-dom';
+// import {Link} from 'react'
 // import register from '../images/333-modified.jpg'
 import {useState} from 'react'
 const Registration = () => {
@@ -56,17 +57,15 @@ const postData = async (e) => {
 
 return (
   <>
-    <div>
-      <h1>Register</h1>
-    </div>
-    <nav className="nav">
+   
+    <nav className="navs">
       <div className="imghbo">
         <img
           src="https://play.hbomax.com/assets/images/branding/desktop/hbomax/dt-hbomax-logo-in_app.svg"
           alt=""
         />
       </div>
-      <div className="singin">
+      <div className="singins">
         <a href="/login">SIGN IN</a>
       </div>
     </nav>
