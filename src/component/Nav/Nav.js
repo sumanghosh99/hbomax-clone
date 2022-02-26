@@ -1,4 +1,5 @@
 import { useState } from "react";
+import {Link} from 'react-router-dom'
 import logo from "../../images/logo.jpg";
 import "./Nav.scss";
 export const Nav = () => {
@@ -43,8 +44,18 @@ export const Nav = () => {
         )}
         <img className="logo" src={logo} alt="img" />
         <ul className="subs">
-          <li>Subscribe Now</li>
-          <li>Sign In</li>
+          <li>
+          <Link to='/register'>
+          Subscribe Now
+
+          </Link>
+          </li>
+          <li>
+          <Link to="/login">
+
+          Sign In
+          </Link>
+          </li>
         </ul>
       </div>
     </div>
