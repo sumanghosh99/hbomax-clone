@@ -2,7 +2,9 @@ import axios from "axios";
 import "./App.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import CarouselSlider from "./component/Carousel.component";
+import { Homepage } from "./pages/homepage";
+import { Route, Routes } from "react-router-dom";
+import { MovieDetail } from "./component/MovieDetail";
 
 // Axios default settings
 
@@ -12,9 +14,10 @@ axios.defaults.params["api_key"] = process.env.REACT_APP_API_KEY;
 
 function App() {
   return (
-    <div className="App" style={{ width: "100vw" }}>
-      <CarouselSlider />
-    </div>
+    <Routes>
+      <Route path="/" element={<Homepage />}></Route>
+      <Route path="/movie/:id" element={<MovieDetail />}></Route>
+    </Routes>
   );
 }
 

@@ -3,44 +3,42 @@ import React, { useEffect, useState } from "react";
 import Slider from "react-slick";
 import { CarouselCard } from "./CarouselCard.component";
 
-function CarouselSlider() {
+function CarouselSlider({ title,url }) {
   const [images, setImages] = useState([]);
-
   useEffect(() => {
     const requestNowPlaying = async () => {
-      const getImages = await axios.get("/movie/now_playing");
+      const getImages = await axios.get(`/movie/${url}`);
       setImages(getImages.data.results);
     };
     requestNowPlaying();
   }, []);
   const settings = {
-    infinity: false,
-    autoplay: false,
-    centerPadding: "-10px",
-    slidesToShow: 4,
-    slidesToScroll: 3,
-    InitialSlide: 0,
+    infinite: false,
+    speed: 500,
+    slidesToShow: 5,
+    slidesToScroll: 4,
+    initialSlide: 0,
     responsive: [
       {
-        breakpoints: 1024,
+        breakpoint: 1024,
         settings: {
           slidesToShow: 3,
-          slidesToScroll: 2,
+          slidesToScroll: 3,
           infinite: true,
         },
       },
       {
-        breakpoints: 600,
+        breakpoint: 600,
         settings: {
           slidesToShow: 2,
-          slidesToScroll: 1,
-          InitialSlide: 1,
+          slidesToScroll: 2,
+          initialSlide: 2,
         },
       },
       {
-        breakpoints: 480,
+        breakpoint: 480,
         settings: {
-          slidesToShow: 2,
+          slidesToShow: 1,
           slidesToScroll: 1,
         },
       },
@@ -48,11 +46,11 @@ function CarouselSlider() {
   };
 
   return (
-    <div style={{ width: "90vw", margin: "0 auto" }}>
-      {" "}
+    <div>
+      <h1 className="text-3xl font-bold mx-2 my-4">{title}</h1>
       <Slider {...settings}>
         {images.map((card) => (
-          <CarouselCard {...card}></CarouselCard>
+          <CarouselCard {...card} />
         ))}
       </Slider>
     </div>
