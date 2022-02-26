@@ -1,0 +1,87 @@
+img {
+    max-width: 129px;
+    max-height: 60px;
+}
+.nav input {
+    display: inline-block;
+}
+ul.toggle-button {
+    display: none;
+}
+ul.subs {
+    display: inline-block;
+    padding: 15px;
+    float: right;
+}
+ul.subs li {
+    display: inline-block;
+    padding: 10px 15px;
+    font-size: 20px;
+}
+.nav h6 {
+    display: inline-block;
+    font-size: 30px;
+    padding: 15px;
+    color: #ccc;
+}
+.nav {
+    vertical-align: middle;
+    max-width: 1500px;
+    margin: 0 auto;
+}
+.navigation .nav img {
+    position: absolute;
+    top : 27px;
+    left: 775px;
+}
+.navigation .nav h5 {
+    display: inline-block;
+    font-size: 30px;
+    padding: 0 15px;
+    color: #ccc;
+}
+.navigation:hover {
+    background-color: rgb(15, 15, 15);
+    opacity: 0.9;
+    color: white;
+    cursor: pointer;
+}
+.header {
+    // background-image: url(movie-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-height: 100%;
+}
+.Container {
+    max-width: 1500px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0 15px;
+ }
+  ul.subs li a {
+    color: #fff;
+    text-decoration: none;
+}
+  #searchs{
+    display: none;
+}
+#search{
+    border: 0px;
+    padding: 0px 10px;
+    font-family: street2_book;
+    font-size: 18px;
+    font-style: normal;
+    text-decoration: none;
+    text-transform: none;
+    line-height: 24px;
+    letter-spacing: 0px;
+    color: rgb(255, 255, 255);
+    box-sizing: border-box;
+    width: 732px;
+    height: 44px;
+    background-color: rgb(25, 25, 25);
+    position: absolute;
+    z-index: 10;
+    top: 20px;
+    left: 210px;
+}
