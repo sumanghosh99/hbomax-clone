@@ -41,7 +41,7 @@ export const Nav = () => {
             placeholder="What are you looking for ?"
           />
         )}
-        <img src={logo} alt="img" />
+        <img className="logo" src={logo} alt="img" />
         <ul className="subs">
           <li>Subscribe Now</li>
           <li>Sign In</li>
