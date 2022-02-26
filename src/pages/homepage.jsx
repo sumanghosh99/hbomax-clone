@@ -1,5 +1,6 @@
 import React from "react";
 import CarouselSlider from "../component/Carousel.component";
+
 export const Homepage = () => {
   return (
     <div>
