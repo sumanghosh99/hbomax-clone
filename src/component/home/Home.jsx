@@ -5,7 +5,7 @@ import raisebywolf from "../../images/background/raisedbywolf.jpg";
 export const Home = () => {
   return (
     <div
-      class="h-[35rem] text-left   brightness-105 drop-shadow bg-center-top  ..."
+      class="h-[35rem]  text-white text-left   brightness-105 drop-shadow bg-center-top  ..."
       style={{ backgroundImage: `url(${homebg})` }}
     >
       <div class="h-[30rem] w-[50rem] bg-none">
@@ -21,7 +21,7 @@ export const Home = () => {
           Stream the best movies, series, originals, and more.{" "}
         </p>
         <button
-          class="ml-12  -mt-[0.1rem] w-[10rem] h-11 rounded-3xl text-bt-text text-xl..."
+          class="ml-12  -mt-[0.1rem] p-2  rounded-3xl text-bt-text text-xl..."
           style={{
             background:
               "linear-gradient(90deg, rgb(71, 16, 193), rgb(120, 87, 255) 92%, rgb(129, 155, 253) 100%)",

@@ -10,15 +10,11 @@
   z-index: 1;
 }
 
-
-
 /* login & signup */
 .App {
   font-family: sans-serif;
   text-align: center;
 }
-
-
 
 /* //////////////////////sign up ///////////////////// */
 .main {
@@ -296,10 +292,9 @@ input[type="submit"] {
 }
 .H1 {
   margin: 0.5% auto 2% auto;
-  height:5%;
-  width:50%;
+  height: 5%;
+  width: 50%;
   /* background-color: #fff; */
-  
 }
 .H1 h1 {
   letter-spacing: 1px;
@@ -452,128 +447,106 @@ input[type="submit"] {
   color: #ac89ed;
 }
 /* nav barr          */
-.navs{
+.navs {
   display: flex;
   /* border: 2px solid red; */
   height: 5rem;
   width: 100vw;
-  margin-left:0%;
-  margin-right:100px;
-  background-color:rgb(37, 37, 37);
+  margin-left: 0%;
+  margin-right: 100px;
+  background-color: rgb(37, 37, 37);
   justify-content: space-between;
   align-items: center;
 }
 
-.singins{
-    /* border: 2px solid black; */
-    color: #f0f0f0;
-    margin-right: 5rem;
-    font-size: 14px;
-    font-weight: 600;    
+.singins {
+  /* border: 2px solid black; */
+  color: #f0f0f0;
+  margin-right: 5rem;
+  font-size: 14px;
+  font-weight: 600;
 }
-.singins a{
-  
+.singins a {
   text-decoration: none;
   color: #fff;
 }
 
-.imghbo{
+.imghbo {
   /* border: 2px solid teal; */
   /* margin-left: 42.5rem; */
-  margin:auto auto auto 72.5rem;
-  
+  margin: auto auto auto 72.5rem;
 }
 
-.imghbo>img{
+.imghbo > img {
   height: 1.7rem;
-  
 }
 
 /* footer part Starts here */
 
-.footerpart{
-
+.footerpart {
   /* border: 1px solid red; */
   display: flex;
-  margin-top:-0.1%;
-  height: 10%; 
+  margin-top: -0.1%;
+  height: 10%;
   width: 100%;
   margin-bottom: 0.1%;
   background-color: rgba(17, 17, 83, 0.8);
-  
 }
 
-
-.privacypart{
+.privacypart {
   display: flex;
   justify-content: space-between;
   /* border: 2px solid teal; */
-  width:40%;
+  width: 40%;
   margin: auto;
   /* background-color:#fff; */
   color: #12034e;
   font-size: 16px;
-<<<<<<< HEAD
 }
-=======
-}
-
-
 
 /* addon page*/
 
-
 .App {
-  
   background-image: url("./images/bg-gradient.jpg");
-   height: 160vh;
-   background-repeat: no-repeat;
-   
+  height: 160vh;
+  background-repeat: no-repeat;
 }
 
-
-.nav{
-
+.nav {
   display: flex;
   /* border: 2px solid red; */
   height: 4rem;
-  background:rgba(0,0,0,.4);
+  background: rgba(0, 0, 0, 0.4);
   justify-content: space-between;
   align-items: center;
 }
 
-
-
-.addon{
-    /* border: 2px solid black; */
-    color: #f0f0f0;
-     margin-right: 3rem;
-    font-size: 11px;
-    font-weight: 600;    
+.addon {
+  /* border: 2px solid black; */
+  color: #f0f0f0;
+  margin-right: 3rem;
+  font-size: 11px;
+  font-weight: 600;
 }
 
-.imghbo{
+.imghbo {
   /* border: 2px solid teal; */
   margin-left: 35.5rem;
-  
 }
 
-.imghbo>img{
+.imghbo > img {
   height: 1.3rem;
 }
 
-
-.mainDiv{
+.mainDiv {
   /* border: 2px solid teal; */
-   height: 55rem;
-   margin-top: 2rem;
-
+  height: 55rem;
+  margin-top: 2rem;
 }
 
-.monthly{
-  
+.monthly {
   display: flex;
-  height:3rem;
+  height: 3rem;
   border: 1px solid red;
   align-items: center;
   justify-content: center;
@@ -581,38 +554,32 @@ input[type="submit"] {
   margin-left: -5.8rem;
 }
 
-
-.monthly > button{
-    border: 1px solid blue;
-    border-radius: 0.9rem;
-    border: none;
-    height: 1.89rem;
-    position: absolute;
-    font-size: 10px;
-    font-weight: 600;
-    
-  
+.monthly > button {
+  border: 1px solid blue;
+  border-radius: 0.9rem;
+  border: none;
+  height: 1.89rem;
+  position: absolute;
+  font-size: 10px;
+  font-weight: 600;
 }
 
-.yearly{
-   margin-left: 15rem;
-   background-color: #463583;
-   z-index: 1;
-   padding-left: 6rem;
-   /* text-align: center; */
-   width: 16rem;
-   color: white; 
-   
+.yearly {
+  margin-left: 15rem;
+  background-color: #463583;
+  z-index: 1;
+  padding-left: 6rem;
+  /* text-align: center; */
+  width: 16rem;
+  color: white;
 }
 
-.monthly1{
-    z-index: 2;
-    width: 12rem;
+.monthly1 {
+  z-index: 2;
+  width: 12rem;
 }
 
-
-
-.step1{
+.step1 {
   border: 1px solid red;
   color: #f0f0f0;
   display: flex;
@@ -621,8 +588,7 @@ input[type="submit"] {
   font-weight: 200;
 }
 
-
-.love{
+.love {
   /* border: 2px solid  orange; */
   color: #f0f0f0;
   font-weight: 700;
@@ -632,89 +598,75 @@ input[type="submit"] {
   font-size: 18px;
 }
 
-
-.save{
-
+.save {
   /* border: 1px solid   red; */
   text-align: center;
-   padding-left: 15rem;
-   padding-top: 0.5rem;
-   color: #f0f0f0;
-   font-size: 13px;
-   font-weight: 700;
+  padding-left: 15rem;
+  padding-top: 0.5rem;
+  color: #f0f0f0;
+  font-size: 13px;
+  font-weight: 700;
 }
 
-
-
-.ads{
+.ads {
   /* border: 1px solid red; */
   display: flex;
   justify-content: center;
 }
 
-.withads{
-    border: 0.2px solid white;
-    
-    width: 25rem;
-    height: 28rem;
-    border-radius: 0.5rem;
+.withads {
+  border: 0.2px solid white;
+
+  width: 25rem;
+  height: 28rem;
+  border-radius: 0.5rem;
 }
 
-.adsfree{
-  border: .2px solid white;
+.adsfree {
+  border: 0.2px solid white;
   width: 25rem;
   height: 25rem;
   margin-left: 2rem;
   border-radius: 0.5rem;
 }
 
-.premium{
+.premium {
   border: 1px solid white;
   border-radius: 0.5rem;
   width: 25rem;
   margin-left: 1.5rem;
 }
 
-
-#select{
+#select {
   /* border: 1px solid blue; */
   margin-top: 3.5rem;
 }
 
-
-.mo{
+.mo {
   /* border: 1px solid red; */
   color: white;
   padding-top: 2rem;
   padding-left: 2rem;
-  
 }
 
-.dollar{
+.dollar {
   /* border: 1px solid teal; */
   margin-top: -1.5rem;
   font-size: 22px;
-
 }
 
-
-
-.m{
-  color: #FFFFFFBF;
+.m {
+  color: #ffffffbf;
   font-size: 18px;
 }
 
-
-
-ul{
+ul {
   list-style: none;
-  color: #FFFFFFBF;
- font-weight: 600;
- 
+  color: #ffffffbf;
+  font-weight: 600;
 }
 
-
-.access{
+.access {
   width: 20rem;
   margin-top: 4rem;
   /* border: 1px solid teal; */
@@ -723,8 +675,7 @@ ul{
   display: flex;
 }
 
-
-.watch{
+.watch {
   width: 20rem;
   /* border: 1px solid teal; */
   font-size: 15px;
@@ -733,29 +684,22 @@ ul{
   margin-top: 0.5rem;
 }
 
-
-li>span{
+li > span {
   /* border: 1px solid green; */
   margin-right: 0.8rem;
 }
 
-
-.selectplan{
+.selectplan {
   /* border: 1px solid red; */
   border: none;
   border-radius: 1rem;
   width: 18rem;
   height: 3rem;
-  background-color: #7B2ABF;
-  color: #FFFFFF;
+  background-color: #7b2abf;
+  color: #ffffff;
   margin-left: 3rem;
   margin-top: 2rem;
-
 }
-
-
-
-
 
 .App-header {
   background-color: #282c34;
@@ -785,41 +729,31 @@ button {
   font-size: calc(10px + 2vmin);
 }
 
-
-body{
-  margin:0;
-  padding:0;
-  font-family: 'PT Sans', sans-serif;
-font-family: 'Roboto', sans-serif;
-font-family: 'Roboto Serif', sans-serif;
-font-family: 'Roboto Slab', serif
-
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "PT Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Serif", sans-serif;
+  font-family: "Roboto Slab", serif;
 }
-
-
 
 /* footer part Starts here */
 
-.footerpart{
-
+.footerpart {
   /* border: 1px solid red; */
   display: flex;
   margin-top: 7.3rem;
-  height: 8rem; 
-  background-color: rgba(3,3,40,.8);
-  
+  height: 8rem;
+  background-color: rgba(3, 3, 40, 0.8);
 }
 
-
-.privacypart{
+.privacypart {
   display: flex;
   justify-content: space-between;
   /* border: 2px solid teal; */
   width: 50rem;
   margin: auto;
-  color: #9E86FF;
+  color: #9e86ff;
   font-size: 16px;
 }
-
-
->>>>>>> 8204ed6305e54ecd4611635b9c682555bbb66e4d
