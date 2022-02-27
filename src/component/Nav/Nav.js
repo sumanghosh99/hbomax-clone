@@ -1,5 +1,5 @@
-// import { useState } from "react";
-// import {Link} from 'react-router-dom'
+import { useState } from "react";
+import {Link} from 'react-router-dom'
 // import logo from "../../images/logo.jpg";
 // import "./Nav.scss";
 // export const Nav = () => {
@@ -86,7 +86,12 @@ export const Nav = () => {
       </div>
       <div class="mt-[0.3rem] mr-3 color-navfont font-bold">
         {" "}
-        <h3 class="text-[#FFFFFFCC]">Subscribe Now</h3>
+        <h3 class="text-[#FFFFFFCC]">
+        <Link to="/addons">
+
+        Subscribe Now
+        </Link>
+        </h3>
       </div>
       <div class="mt-[0.3rem] mx-24 color-navfont fo">
         {" "}

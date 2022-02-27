@@ -503,8 +503,16 @@ input[type="submit"] {
   font-size: 16px;
 }
 
+/* addon page*/
 
-/* addon page              */
+
+.App {
+  
+  background-image: url("./images/bg-gradient.jpg");
+   height: 160vh;
+   background-repeat: no-repeat;
+   
+}
 
 
 .nav{
@@ -519,7 +527,7 @@ input[type="submit"] {
 
 
 
-.singin{
+.addon{
     /* border: 2px solid black; */
     color: #f0f0f0;
      margin-right: 3rem;
@@ -548,7 +556,8 @@ input[type="submit"] {
 .monthly{
   
   display: flex;
-  /* border: 1px solid red; */
+  height:3rem;
+  border: 1px solid red;
   align-items: center;
   justify-content: center;
   margin-top: 3rem;
@@ -557,7 +566,7 @@ input[type="submit"] {
 
 
 .monthly > button{
-    /* border: 1px solid blue; */
+    border: 1px solid blue;
     border-radius: 0.9rem;
     border: none;
     height: 1.89rem;
@@ -587,7 +596,7 @@ input[type="submit"] {
 
 
 .step1{
-  /* border: 1px solid red; */
+  border: 1px solid red;
   color: #f0f0f0;
   display: flex;
   justify-content: center;
