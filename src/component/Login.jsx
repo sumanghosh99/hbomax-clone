@@ -35,7 +35,7 @@ const navigation=useNavigate();
     else{
       
       window.alert("Login Successfully");
-      navigation("/Home")
+      navigation("/")
     }
 
   }
