@@ -4,7 +4,7 @@ export const Nav = () => {
   const [flag, setFlag] = useState(false);
 
   return (
-    <div class="flex flex-row fixed z-10 top-0  bg-transparent  w-full items-center   hover:bg-navbac  mb-[2rem]">
+    <div class="flex flex-row fixed z-10 top-0  bg-transparent  w-full items-center   hover:bg-stone-900  mb-[2rem]">
       <div class="m-1 flex flex-row ml-14">
         <img
           src="https://play.hbomax.com/assets/images/primary_nav/desktop/browse_default_max.svg"
