@@ -17,7 +17,6 @@ axios.defaults.params["api_key"] = process.env.REACT_APP_API_KEY;
 function App() {
   return (
     <div className="App" style={{ width: "100vw" }}>
-       {/* <Nav/>  */}
       <Routes>
         <Route path="/" element={<Homepage />}></Route>
         <Route path="/movie/:id" element={<MovieDetail />}></Route>
@@ -25,7 +24,6 @@ function App() {
         <Route path="/register" element={<Registration />}></Route>
         <Route path="/addons" element={<Addons />}></Route>
       </Routes>
-      {/* <Footer/> */}
     </div>
   );
 }

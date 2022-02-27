@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import PaymentModal from "./PaymentModal";
 
 export default function MovieInfo(props) {
   const [isOpen, setIsOpen] = useState(false);
@@ -14,11 +15,12 @@ export default function MovieInfo(props) {
 
   const buyMovies = () => {
     setIsOpen(true);
-    setPrice(599);
+    setPrice(549);
   };
   return (
     <>
-      <div className="flex flex-col gap-3 lg:gap-8">
+      <PaymentModal setIsOpen={setIsOpen} isOpen={isOpen} price={price} />
+      <div className="text-left flex flex-col gap-3 lg:gap-8">
         <div className="flex items-center gap-3 md:px-4">
           <div className="w-40 h-8">
             <img
@@ -31,7 +33,7 @@ export default function MovieInfo(props) {
             Streaming now
           </span>
         </div>
-        <h1 className="text-white lg:text-5xl font-bold hidden lg:block ">
+        <h1 className="text-white pl-4 lg:text-5xl font-bold hidden lg:block ">
           {props.original_title}
         </h1>
         <div className="flex flex-col-reverse gap-3 lg:gap-5 lg:flex-col">
@@ -44,15 +46,15 @@ export default function MovieInfo(props) {
           <div className="flex items-center gap-3 md:px-4 md:w-screen lg:w-full">
             <button
               onClick={rentMovies}
-              className="bg-red-600 w-full py-3 text-white font-semibold rounded-lg"
+              className="text-xl bg-red-600 w-full py-3 text-white font-semibold rounded-lg"
             >
-              Rent
+              Rent ₹149
             </button>
             <button
               onClick={buyMovies}
-              className="bg-red-600 w-full py-3 text-white font-semibold rounded-lg"
+              className="text-xl bg-red-600 w-full py-3 text-white font-semibold rounded-lg"
             >
-              Buy
+              Buy ₹549
             </button>
           </div>
         </div>
