@@ -18,7 +18,7 @@ export default function MovieInfo(props) {
   };
   return (
     <>
-      <div className="flex flex-col gap-3 lg:gap-8">
+      <div className="text-left flex flex-col gap-3 lg:gap-8">
         <div className="flex items-center gap-3 md:px-4">
           <div className="w-40 h-8">
             <img

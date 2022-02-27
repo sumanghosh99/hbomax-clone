@@ -10,10 +10,15 @@
   z-index: 1;
 }
 
+
+
 /* login & signup */
 .App {
   font-family: sans-serif;
+  text-align: center;
 }
+
+
 
 /* //////////////////////sign up ///////////////////// */
 .main {
@@ -291,9 +296,10 @@ input[type="submit"] {
 }
 .H1 {
   margin: 0.5% auto 2% auto;
-  height: 5%;
-  width: 50%;
+  height:5%;
+  width:50%;
   /* background-color: #fff; */
+  
 }
 .H1 h1 {
   letter-spacing: 1px;
@@ -446,57 +452,63 @@ input[type="submit"] {
   color: #ac89ed;
 }
 /* nav barr          */
-.navs {
+.navs{
   display: flex;
   /* border: 2px solid red; */
   height: 5rem;
   width: 100vw;
-  margin-left: 0%;
-  margin-right: 100px;
-  background-color: rgb(37, 37, 37);
+  margin-left:0%;
+  margin-right:100px;
+  background-color:rgb(37, 37, 37);
   justify-content: space-between;
   align-items: center;
 }
 
-.singins {
-  /* border: 2px solid black; */
-  color: #f0f0f0;
-  margin-right: 5rem;
-  font-size: 14px;
-  font-weight: 600;
+.singins{
+    /* border: 2px solid black; */
+    color: #f0f0f0;
+    margin-right: 5rem;
+    font-size: 14px;
+    font-weight: 600;    
 }
-.singins a {
+.singins a{
+  
   text-decoration: none;
   color: #fff;
 }
 
-.imghbo {
+.imghbo{
   /* border: 2px solid teal; */
   /* margin-left: 42.5rem; */
-  margin: auto auto auto 72.5rem;
+  margin:auto auto auto 72.5rem;
+  
 }
 
-.imghbo > img {
+.imghbo>img{
   height: 1.7rem;
+  
 }
 
 /* footer part Starts here */
 
-.footerpart {
+.footerpart{
+
   /* border: 1px solid red; */
   display: flex;
-  margin-top: -0.1%;
-  height: 10%;
+  margin-top:-0.1%;
+  height: 10%; 
   width: 100%;
   margin-bottom: 0.1%;
   background-color: rgba(17, 17, 83, 0.8);
+  
 }
 
-.privacypart {
+
+.privacypart{
   display: flex;
   justify-content: space-between;
   /* border: 2px solid teal; */
-  width: 40%;
+  width:40%;
   margin: auto;
   /* background-color:#fff; */
   color: #12034e;
