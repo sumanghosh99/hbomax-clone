@@ -46,12 +46,12 @@ export const Nav = () => {
         />
       </div>
       <div class="mt-[0.3rem] mr-3 color-navfont font-bold">
-        <Link to="login">
+        <Link to="/register">
           <h3 class="text-[#FFFFFFCC]">Subscribe Now</h3>
         </Link>
       </div>
       <div class="mt-[0.3rem] mx-24 color-navfont fo">
-        <Link to="/register">
+        <Link to="/login">
           <h3 class="text-[#FFFFFFCC]">Sign In</h3>
         </Link>
       </div>

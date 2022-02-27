@@ -27,7 +27,7 @@ export const Home = () => {
               "linear-gradient(90deg, rgb(71, 16, 193), rgb(120, 87, 255) 92%, rgb(129, 155, 253) 100%)",
           }}
         >
-          <Link to="register">SIGN UP NOW</Link>
+          <Link to="/addons">SIGN UP NOW</Link>
         </button>
       </div>
     </div>

@@ -59,7 +59,7 @@ return (
   <>
    
     <nav className="navs">
-      <div className="imghbo">
+      <div className="imghbos">
         <img
           src="https://play.hbomax.com/assets/images/branding/desktop/hbomax/dt-hbomax-logo-in_app.svg"
           alt=""
