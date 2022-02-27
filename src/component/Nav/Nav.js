@@ -62,43 +62,36 @@
 //   );
 // };
 
+export const Nav = () => {
+  return (
+    <div class="top-0 flex flex-row fixed z-10  bg-transparent mb-[2rem]  w-full items-center   hover:bg-navbac">
+      <div class="m-1 flex flex-row ml-14">
+        <img
+          src="https://play.hbomax.com/assets/images/primary_nav/desktop/browse_default_max.svg"
+          alt=""
+        />
 
-
-
-
-
-
-export const Nav = ()=>{
-
-
-     return(
-      
-     <div class="flex flex-row fixed z-10  bg-transparent mb-[2rem]  w-[80rem] items-center   hover:bg-navbac  mb-[2rem] ... " >
-
-      <div class="m-1 flex flex-row ml-14"><img src="https://play.hbomax.com/assets/images/primary_nav/desktop/browse_default_max.svg" alt="" />
-      
-      <div class="m-4 ml-10"><img src="https://play.hbomax.com/assets/images/primary_nav/desktop/search_default_max.svg" alt="" /></div>
-      
+        <div class="m-4 ml-10">
+          <img
+            src="https://play.hbomax.com/assets/images/primary_nav/desktop/search_default_max.svg"
+            alt=""
+          />
+        </div>
       </div>
-      <div class="mt-[0.3rem] mx-auto mr-60     "><img src="https://play.hbomax.com/assets/images/branding/desktop/hbomax/dt-hbomax-logo-in_app.svg" alt="" /></div>
-      <div class="mt-[0.3rem] mr-3 color-navfont font-bold">  <h3 class="text-[#FFFFFFCC]">Subscribe Now</h3></div>
-      <div class="mt-[0.3rem] mx-24 color-navfont fo" > <h3 class="text-[#FFFFFFCC]">Sign In</h3></div>
-     </div>
-
-
-
-
-     )
-
-
-
-
-}
-
-
-
-
-
-
-
-
+      <div class="mt-[0.3rem] mx-auto mr-60     ">
+        <img
+          src="https://play.hbomax.com/assets/images/branding/desktop/hbomax/dt-hbomax-logo-in_app.svg"
+          alt=""
+        />
+      </div>
+      <div class="mt-[0.3rem] mr-3 color-navfont font-bold">
+        {" "}
+        <h3 class="text-[#FFFFFFCC]">Subscribe Now</h3>
+      </div>
+      <div class="mt-[0.3rem] mx-24 color-navfont fo">
+        {" "}
+        <h3 class="text-[#FFFFFFCC]">Sign In</h3>
+      </div>
+    </div>
+  );
+};

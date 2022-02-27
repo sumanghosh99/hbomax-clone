@@ -47,7 +47,7 @@ function CarouselSlider({ title,url }) {
 
   return (
     <div>
-      <h1 className="text-3xl font-bold mx-2 my-4">{title}</h1>
+      <h1 className="text-3xl font-bold mx-1/2 my-4">{title}</h1>
       <Slider {...settings}>
         {images.map((card) => (
           <CarouselCard {...card} />
