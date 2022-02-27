@@ -8,6 +8,7 @@ import {Nav} from "./component/Nav/Nav";
 import Login from './component/Login';
 import Registration from './component/Registration';
 import { MovieDetail } from "./component/MovieDetail";
+import { Addons } from "./component/Addons";
 import {Footer} from "./component/Footer/Footer";
 axios.defaults.baseURL = "https://api.themoviedb.org/3";
 axios.defaults.params = {};
@@ -21,6 +22,7 @@ function App() {
         <Route path="/movie/:id" element={<MovieDetail />}></Route>
         <Route path="/login" element={<Login />}></Route>
         <Route path="/register" element={<Registration />}></Route>
+        <Route path="/addons" element={<Addons />}></Route>
       </Routes>
     </div>
   );

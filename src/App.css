@@ -513,4 +513,313 @@ input[type="submit"] {
   /* background-color:#fff; */
   color: #12034e;
   font-size: 16px;
+<<<<<<< HEAD
 }
+=======
+}
+
+
+
+/* addon page*/
+
+
+.App {
+  
+  background-image: url("./images/bg-gradient.jpg");
+   height: 160vh;
+   background-repeat: no-repeat;
+   
+}
+
+
+.nav{
+
+  display: flex;
+  /* border: 2px solid red; */
+  height: 4rem;
+  background:rgba(0,0,0,.4);
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+
+.addon{
+    /* border: 2px solid black; */
+    color: #f0f0f0;
+     margin-right: 3rem;
+    font-size: 11px;
+    font-weight: 600;    
+}
+
+.imghbo{
+  /* border: 2px solid teal; */
+  margin-left: 35.5rem;
+  
+}
+
+.imghbo>img{
+  height: 1.3rem;
+}
+
+
+.mainDiv{
+  /* border: 2px solid teal; */
+   height: 55rem;
+   margin-top: 2rem;
+
+}
+
+.monthly{
+  
+  display: flex;
+  height:3rem;
+  border: 1px solid red;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3rem;
+  margin-left: -5.8rem;
+}
+
+
+.monthly > button{
+    border: 1px solid blue;
+    border-radius: 0.9rem;
+    border: none;
+    height: 1.89rem;
+    position: absolute;
+    font-size: 10px;
+    font-weight: 600;
+    
+  
+}
+
+.yearly{
+   margin-left: 15rem;
+   background-color: #463583;
+   z-index: 1;
+   padding-left: 6rem;
+   /* text-align: center; */
+   width: 16rem;
+   color: white; 
+   
+}
+
+.monthly1{
+    z-index: 2;
+    width: 12rem;
+}
+
+
+
+.step1{
+  border: 1px solid red;
+  color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  font-size: 12px;
+  font-weight: 200;
+}
+
+
+.love{
+  /* border: 2px solid  orange; */
+  color: #f0f0f0;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  word-spacing: 0.5rem;
+  font-size: 18px;
+}
+
+
+.save{
+
+  /* border: 1px solid   red; */
+  text-align: center;
+   padding-left: 15rem;
+   padding-top: 0.5rem;
+   color: #f0f0f0;
+   font-size: 13px;
+   font-weight: 700;
+}
+
+
+
+.ads{
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: center;
+}
+
+.withads{
+    border: 0.2px solid white;
+    
+    width: 25rem;
+    height: 28rem;
+    border-radius: 0.5rem;
+}
+
+.adsfree{
+  border: .2px solid white;
+  width: 25rem;
+  height: 25rem;
+  margin-left: 2rem;
+  border-radius: 0.5rem;
+}
+
+.premium{
+  border: 1px solid white;
+  border-radius: 0.5rem;
+  width: 25rem;
+  margin-left: 1.5rem;
+}
+
+
+#select{
+  /* border: 1px solid blue; */
+  margin-top: 3.5rem;
+}
+
+
+.mo{
+  /* border: 1px solid red; */
+  color: white;
+  padding-top: 2rem;
+  padding-left: 2rem;
+  
+}
+
+.dollar{
+  /* border: 1px solid teal; */
+  margin-top: -1.5rem;
+  font-size: 22px;
+
+}
+
+
+
+.m{
+  color: #FFFFFFBF;
+  font-size: 18px;
+}
+
+
+
+ul{
+  list-style: none;
+  color: #FFFFFFBF;
+ font-weight: 600;
+ 
+}
+
+
+.access{
+  width: 20rem;
+  margin-top: 4rem;
+  /* border: 1px solid teal; */
+  font-size: 15px;
+  word-spacing: 5px;
+  display: flex;
+}
+
+
+.watch{
+  width: 20rem;
+  /* border: 1px solid teal; */
+  font-size: 15px;
+  word-spacing: 5px;
+  display: flex;
+  margin-top: 0.5rem;
+}
+
+
+li>span{
+  /* border: 1px solid green; */
+  margin-right: 0.8rem;
+}
+
+
+.selectplan{
+  /* border: 1px solid red; */
+  border: none;
+  border-radius: 1rem;
+  width: 18rem;
+  height: 3rem;
+  background-color: #7B2ABF;
+  color: #FFFFFF;
+  margin-left: 3rem;
+  margin-top: 2rem;
+
+}
+
+
+
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+button {
+  font-size: calc(10px + 2vmin);
+}
+
+
+body{
+  margin:0;
+  padding:0;
+  font-family: 'PT Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Serif', sans-serif;
+font-family: 'Roboto Slab', serif
+
+}
+
+
+
+/* footer part Starts here */
+
+.footerpart{
+
+  /* border: 1px solid red; */
+  display: flex;
+  margin-top: 7.3rem;
+  height: 8rem; 
+  background-color: rgba(3,3,40,.8);
+  
+}
+
+
+.privacypart{
+  display: flex;
+  justify-content: space-between;
+  /* border: 2px solid teal; */
+  width: 50rem;
+  margin: auto;
+  color: #9E86FF;
+  font-size: 16px;
+}
+
+
+>>>>>>> 8204ed6305e54ecd4611635b9c682555bbb66e4d
