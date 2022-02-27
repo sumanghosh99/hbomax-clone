@@ -22,7 +22,11 @@
   color: white;
   height: 100vh;
   width: 100%;
-  border: 1px solid green;
+  border: 1px solid #220758;
+}
+.navs .imghbos img {
+  /* border: 2px solid teal; */
+  margin-left: 40.5rem ;
 }
 .secmain {
   background-color: #220758;
@@ -268,14 +272,19 @@ input[type="submit"] {
   text-decoration: none;
 }
 /* /////////////////login page  /////////////// */
-.loginmain {
+.dj{
+  height: 98vh;
+  width: 100%;
+  border: 0.1px solid rgb(12, 1, 54); 
+}
+.loginmains {
   background: #000;
-  margin: 20px auto;
+  margin:3% auto;
   height: 90vh;
   width: 40%;
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
 }
-.loginmain .icon {
+.loginmains .icon {
   height: 7%;
   width: 100%;
   justify-content: flex-end;
@@ -480,38 +489,17 @@ input[type="submit"] {
   height: 1.7rem;
 }
 
-/* footer part Starts here */
 
-.footerpart {
-  /* border: 1px solid red; */
-  display: flex;
-  margin-top: -0.1%;
-  height: 10%;
-  width: 100%;
-  margin-bottom: 0.1%;
-  background-color: rgba(17, 17, 83, 0.8);
-}
-
-.privacypart {
-  display: flex;
-  justify-content: space-between;
-  /* border: 2px solid teal; */
-  width: 40%;
-  margin: auto;
-  /* background-color:#fff; */
-  color: #12034e;
-  font-size: 16px;
-}
 
 /* addon page*/
 
 .App {
   background-image: url("./images/bg-gradient.jpg");
-  height: 160vh;
+  height: 135vh;
   background-repeat: no-repeat;
 }
 
-.nav {
+.Addon_nav {
   display: flex;
   /* border: 2px solid red; */
   height: 4rem;
@@ -520,17 +508,17 @@ input[type="submit"] {
   align-items: center;
 }
 
-.addon {
-  /* border: 2px solid black; */
+.Addon_nav .addon {
+  /* border: 2px solid rgb(248, 247, 247); */
   color: #f0f0f0;
-  margin-right: 3rem;
-  font-size: 11px;
+  margin-right: 6rem;
+  font-size: 15px;
   font-weight: 600;
 }
 
-.imghbo {
+.Addon_nav .imghbo {
   /* border: 2px solid teal; */
-  margin-left: 35.5rem;
+  margin-left: 42.5rem;
 }
 
 .imghbo > img {
@@ -543,27 +531,30 @@ input[type="submit"] {
   margin-top: 2rem;
 }
 
-.monthly {
+.mainDiv .monthly {
   display: flex;
-  height: 3rem;
-  border: 1px solid red;
+  height: 5rem;
+  color:#fff;
+  width: 50%;
+  /* border: 1px solid red; */
   align-items: center;
   justify-content: center;
-  margin-top: 3rem;
-  margin-left: -5.8rem;
+  margin: 3rem auto;
+  font-size: 15px;
 }
 
-.monthly > button {
-  border: 1px solid blue;
+.monthly button {
+  border: 1px solid rgb(247, 247, 248);
   border-radius: 0.9rem;
   border: none;
-  height: 1.89rem;
-  position: absolute;
-  font-size: 10px;
+  height: 4rem;
+  width: 40%;
+  font-size: 20px;
   font-weight: 600;
+  /* background-color:rgb(123, 137, 238); */
 }
 
-.yearly {
+.yearly1 {
   margin-left: 15rem;
   background-color: #463583;
   z-index: 1;
@@ -577,13 +568,34 @@ input[type="submit"] {
   z-index: 2;
   width: 12rem;
 }
+.save {
+  /* border: 1px solid   red; */
+  height:2rem;
+  width:30%;
+  margin: -1% auto;
+
+  
+}
+.save p{
+  color: #f0f0f0;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+  justify-content:center;
+  align-items:center;
+}
 
 .step1 {
-  border: 1px solid red;
+  height: 3rem;
+  width: 30%;
+  margin: 1% auto;
+  /* border: 1px solid red; */
   color: #f0f0f0;
   display: flex;
   justify-content: center;
-  font-size: 12px;
+  align-items: center;
+  text-align: center;
+  font-size: 14px;
   font-weight: 200;
 }
 
@@ -597,17 +609,11 @@ input[type="submit"] {
   font-size: 18px;
 }
 
-.save {
-  /* border: 1px solid   red; */
-  text-align: center;
-  padding-left: 15rem;
-  padding-top: 0.5rem;
-  color: #f0f0f0;
-  font-size: 13px;
-  font-weight: 700;
-}
+
 
 .ads {
+  width:80%;
+  margin: 2% auto;
   /* border: 1px solid red; */
   display: flex;
   justify-content: center;
@@ -621,7 +627,7 @@ input[type="submit"] {
   border-radius: 0.5rem;
 }
 
-.adsfree {
+.adsfree{
   border: 0.2px solid white;
   width: 25rem;
   height: 25rem;
@@ -647,14 +653,20 @@ input[type="submit"] {
   padding-top: 2rem;
   padding-left: 2rem;
 }
-
-.dollar {
-  /* border: 1px solid teal; */
-  margin-top: -1.5rem;
-  font-size: 22px;
+.mo h1{
+  font-size: 25px;
+  display: inline-block;
+  justify-content:space-between;
 }
 
-.m {
+.mo .dollar {
+  /* border: 1px solid teal; */
+  margin-top: -1.5rem;
+  margin-left: 0.5rem;
+  font-size: 25px;
+}
+
+.mo .m {
   color: #ffffffbf;
   font-size: 18px;
 }
@@ -711,18 +723,9 @@ li > span {
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
+
 
 button {
   font-size: calc(10px + 2vmin);
@@ -739,20 +742,44 @@ body {
 
 /* footer part Starts here */
 
+.footerparts {
+  /* border: 5px solid red; */
+  display: flex;
+  margin-top:-0.11rem;
+  height: 5rem;
+  background-color: rgba(3, 3, 40, 0.8);
+}
+
+.privacyparts {
+  display: flex;
+  justify-content: space-between;
+  /* border: 2px solid rgb(187, 187, 187); */
+  width: 50rem;
+  margin: auto;
+  color: #9e86ff;
+  font-size: 16px;
+}
+
+/* registration footer  */
+/* footer part Starts here */
+
 .footerpart {
   /* border: 1px solid red; */
   display: flex;
-  margin-top: 7.3rem;
-  height: 8rem;
-  background-color: rgba(3, 3, 40, 0.8);
+  margin-top: -0.1%;
+  height: 18%;
+  width: 100%;
+  margin-bottom: 0.1%;
+  /* background-color: rgba(17, 17, 83, 0.8); */
 }
 
 .privacypart {
   display: flex;
   justify-content: space-between;
   /* border: 2px solid teal; */
-  width: 50rem;
+  width: 40%;
   margin: auto;
-  color: #9e86ff;
+  /* background-color:#fff; */
+  color: #544e6d;
   font-size: 16px;
 }

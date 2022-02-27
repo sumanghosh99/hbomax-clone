@@ -48,7 +48,8 @@ const navigation=useNavigate();
   };
   return (
     <>
-      <div className="loginmain">
+      <div className="dj">
+      <div className="loginmains">
         <div className="icon">
           <i class="uil uil-times" onClick={cross}></i>
         </div>
@@ -114,6 +115,7 @@ const navigation=useNavigate();
             <a href="/help">Need help?</a>
           </div>
         </div>
+      </div>
       </div>
     </>
   )
