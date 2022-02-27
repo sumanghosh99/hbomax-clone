@@ -6,3 +6,8 @@
   padding: 0;
   box-sizing: border-box;
 }
+#root {
+  background-image: url("./images/bg-gradient.jpg");
+  width: 100vw;
+  height: 147.5em;
+}

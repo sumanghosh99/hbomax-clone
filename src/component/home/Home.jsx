@@ -5,7 +5,7 @@ import raisebywolf from "../../images/background/raisedbywolf.jpg";
 export const Home = () => {
   return (
     <div
-      class="h-[35rem]  text-white text-left   brightness-105 drop-shadow bg-center-top  ..."
+      class="h-[35rem]  text-white text-left home-bg-img   brightness-105 drop-shadow bg-center-top "
       style={{ backgroundImage: `url(${homebg})` }}
     >
       <div class="h-[30rem] w-[50rem] bg-none">
