@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom"
+
 export const Addons = ()=>{
 
     return(
@@ -56,7 +58,12 @@ export const Addons = ()=>{
    
       </ul>
    
-       <button className="selectplan " id="select">SELECT PLAN</button>
+       <button className="selectplan " id="select">
+       <Link to='/register'>
+       SELECT PLAN
+
+       </Link>
+       </button>
    
       </div>
       <div className="premium">
@@ -77,7 +84,12 @@ export const Addons = ()=>{
    
       </ul>
    
-       <button className="selectplan">SELECT PLAN</button>
+       <button className="selectplan">
+       <Link to='/register'>
+       SELECT PLAN
+
+       </Link>
+       </button>
    
    
    
